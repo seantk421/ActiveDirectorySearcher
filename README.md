@@ -1,10 +1,10 @@
 ActiveDirectorySearcher
 =======================
 
-Use the ADSearch class to search the specified.  The results will be returned as either a list of ADComputers or a 
-list of ADUsers.  When instantiating the searcher object, you will need to specify the domain you wish to connect to
-and the username and password of a basic user account in the domain.  Below is an example retrieving a dataset and 
-binding to a simple gridview.
+Use the ADSearch class to search the specified Active Directory computer and user objects.  The results will be 
+returned as either a list of ADComputers or a list of ADUsers.  When instantiating the searcher object, you will 
+need to specify the domain you wish to connect to and the username and password of a basic user account in the 
+domain.  Below is an example of retrieving a dataset and binding to a simple gridview.
 
 //---------------------------------------------------------
 
