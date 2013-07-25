@@ -6,7 +6,7 @@ returned as either a list of ADComputers or a list of ADUsers.  When instantiati
 need to specify the domain you wish to connect to and the username and password of a basic user account in the 
 domain.  Below is an example of retrieving a dataset and binding to a simple gridview.
 
-//---------------------------------------------------------
+```
 
 ASSearcher searcher = new ADSearcher("mycompanydomain.com", "username", "password");
 List<ADUser> users = searcher.SearchUserDescription("searchquery");
@@ -14,7 +14,7 @@ List<ADUser> users = searcher.SearchUserDescription("searchquery");
 GridViewName.DataSource = users;
 GridViewName.DataBind();
 
-//---------------------------------------------------------
+```
 
 Easy as that. :)
 
